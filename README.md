@@ -11,10 +11,10 @@
 **Carbon Nanotubes RAG System** — a Streamlit prototype rebuilt into a full production system across 6 development phases: correct retrieval math, a validated REST API, structured logging, Docker, CI/CD, and a live public deployment.
 
 - 🔌 [Live REST API (Swagger docs)](https://rag-raman-api.onrender.com/docs)
-- 💻 [Live Streamlit Demo](https://carbon-nanotubes-rag.streamlit.app/)
-- 📦 [Repository](https://github.com/slastrzelec/13_RAG_raman_carbon_nanotubes)
+- 💻 [Live Streamlit Demo](https://carbon-nanotubes-raman-rag.streamlit.app/)
+- 📦 [Repository](https://github.com/slastrzelec/carbon-nanotubes-rag)
 
-**Highlights:** hybrid dense+BM25 retrieval · 21 automated tests (CI via GitHub Actions) · RAGAs-evaluated answer faithfulness (~0.80–0.82) · Dockerized API + UI · deployed on a 512MB free-tier instance
+**Highlights:** hybrid dense+BM25 retrieval · 31 automated tests (CI via GitHub Actions) · RAGAs-evaluated answer faithfulness (~0.80–0.82) · Dockerized API + UI · deployed on a 512MB free-tier instance
 
 ---
 
