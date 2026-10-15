@@ -1,32 +1,24 @@
-# Hi, I'm Sławomir 👋
+# Sławomir Strzelec
 
-**ML Engineer & Data Scientist** | Python · RAG · LangChain · FastAPI | Kraków, Poland
+**AI/ML Engineer & Data Scientist** · Kraków, Poland
 
-🔬 Chemistry/biophysics background (PhD in progress, AGH University of Kraków) — bridging rigorous scientific research with production-grade AI engineering.
+Chemistry and biophysics background (PhD in progress, AGH University of Kraków), now building machine-learning systems that are measured honestly: written specification before code, leakage-controlled evaluation, automated tests in CI, and limitations documented next to the results.
 
----
+## Selected work
 
-## 🚀 Featured Project
+- **[Carbon Nanotubes RAG](https://github.com/slastrzelec/carbon-nanotubes-rag)** · Retrieval-augmented Q&A over 24 scientific papers. Hybrid dense + BM25 retrieval, answers only from retrieved passages with citations, faithfulness measured with RAGAs (about 0.80-0.82 on 14 domain questions). FastAPI, Streamlit, Docker, 31 tests in CI. [Live demo](https://carbon-nanotubes-raman-rag.streamlit.app/)
+- **[ML Data Guard](https://github.com/slastrzelec/ml-data-guard)** · Library and CLI that validates data going into ML pipelines, benchmarked by fault injection: which drift and skew checks catch real faults, and at what false-alarm rate. 780 tests plus 104 hand-written mutants, published on PyPI.
+- **[Scientific Research Agent](https://github.com/slastrzelec/research-agent-langchain)** · LangChain/LangGraph agent choosing between Wikipedia, ArXiv, PubMed and a safe calculator. Token budgets, per-session isolation, evaluation harness with separate dev and test splits, 95 tests that need no API key.
+- **[SEM Nanostructure Classifier](https://github.com/slastrzelec/sem-nanostructure-classifier)** · Image classifier built to measure how much accuracy survives once near-duplicate leakage is controlled: macro-F1 0.956 on a group-aware split, calibrated confidence, negative results reported.
+- **[Drug Solubility Predictor](https://github.com/slastrzelec/drug-solubility-prediction)** · XGBoost on Morgan fingerprints and RDKit descriptors: R² 0.91 on ESOL and 0.64 on 8,881 unseen AqSolDB compounds, with prediction intervals and an applicability-domain warning. FastAPI + Docker.
 
-**Carbon Nanotubes RAG System** — a Streamlit prototype rebuilt into a full production system across 6 development phases: correct retrieval math, a validated REST API, structured logging, Docker, CI/CD, and a live public deployment.
+More projects are in the pinned repositories below and on the [portfolio site](https://slastrzelec.github.io/portfolio/).
 
-- 🔌 [Live REST API (Swagger docs)](https://rag-raman-api.onrender.com/docs)
-- 💻 [Live Streamlit Demo](https://carbon-nanotubes-raman-rag.streamlit.app/)
-- 📦 [Repository](https://github.com/slastrzelec/carbon-nanotubes-rag)
+## Stack
 
-**Highlights:** hybrid dense+BM25 retrieval · 31 automated tests (CI via GitHub Actions) · RAGAs-evaluated answer faithfulness (~0.80–0.82) · Dockerized API + UI · deployed on a 512MB free-tier instance
+**AI/ML:** Python · PyTorch · scikit-learn · XGBoost · LangChain · LangGraph · RAG · FAISS
+**Backend & MLOps:** FastAPI · Docker · GitHub Actions · pytest · PostgreSQL · AWS · GCP
 
----
+## Contact
 
-## 🛠️ Tech Stack
-
-**AI/ML:** Python · LangChain · LangGraph · RAG · FAISS · PyTorch · Scikit-learn
-**Backend:** FastAPI · REST API · PostgreSQL
-**Infra:** Docker · GitHub Actions (CI/CD) · AWS · GCP
-**Tools:** Git · pytest · Jupyter
-
----
-
-## 📫 Let's Connect
-
-[LinkedIn](https://www.linkedin.com/in/sławomir-strzelec) · [Portfolio](https://slastrzelec.github.io/portfolio/)
+[LinkedIn](https://www.linkedin.com/in/s%C5%82awomir-strzelec) · [Portfolio](https://slastrzelec.github.io/portfolio/)
